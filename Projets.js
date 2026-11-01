@@ -45,7 +45,7 @@ function defiler_droite() {
     else if (etat === 4) {
         icône.src = "kaien-haru.png"
         lien.href = "https://roman-projets.github.io/foudrebleue_kaienxharu/"
-        descipt.innerHTML = "";
+        descipt.innerHTML = "<h1>Kaien × Haru — Entre l'ombre et l'aube</h1> <br> <br>Entre l'ombre et l'aube est un projet de création d'un univers romantique inspiré de l'esthétique anime et du genre BL (Boys' Love). Il raconte l'histoire de Kaien, un jeune homme charismatique et protecteur, et de Haru, un garçon plus réservé et sensible. À travers leurs rencontres, leurs sentiments et les obstacles qui se dressent sur leur chemin, leur relation évolue entre tendresse, tensions et promesses. <br> <br> Ce projet associe narration originale, illustrations générées par IA et scènes animées afin de donner vie aux personnages et de proposer une expérience immersive. Le site web présente leur univers, leurs personnalités, leurs moments marquants et plusieurs scènes vidéo qui illustrent les étapes de leur histoire. <br> <br> Objectif : créer une expérience narrative interactive mêlant création artistique, storytelling et développement web, tout en explorant les possibilités de l'intelligence artificielle dans la conception d'un univers fictif.";
         etat = 5
     }
     else {
@@ -64,7 +64,7 @@ function defiler_gauche() {
     if (etat === 0) {
         icône.src = "kaien-haru.png"
         lien.href = "https://roman-projets.github.io/foudrebleue_kaienxharu/"
-        descipt.innerHTML = "";
+        descipt.innerHTML = "<h1>Kaien × Haru — Entre l'ombre et l'aube</h1> <br> <br>Entre l'ombre et l'aube est un projet de création d'un univers romantique inspiré de l'esthétique anime et du genre BL (Boys' Love). Il raconte l'histoire de Kaien, un jeune homme charismatique et protecteur, et de Haru, un garçon plus réservé et sensible. À travers leurs rencontres, leurs sentiments et les obstacles qui se dressent sur leur chemin, leur relation évolue entre tendresse, tensions et promesses. <br> <br> Ce projet associe narration originale, illustrations générées par IA et scènes animées afin de donner vie aux personnages et de proposer une expérience immersive. Le site web présente leur univers, leurs personnalités, leurs moments marquants et plusieurs scènes vidéo qui illustrent les étapes de leur histoire. <br> <br> Objectif : créer une expérience narrative interactive mêlant création artistique, storytelling et développement web, tout en explorant les possibilités de l'intelligence artificielle dans la conception d'un univers fictif.";
         etat = 5
     }
     else if (etat === 5) {
