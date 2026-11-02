@@ -38,7 +38,7 @@ function defiler_droite() {
     }
     else if (etat === 3) {
         icône.src = "Couverture.webp"
-        lien.href = "./Montage Mon Idole Blam'S.mp4"
+        lien.href = "./Montage Mon Idole BlamS.mp4"
         descipt.innerHTML = "<h1>Mon Idole - BlamS </h1> <br> Il s’agit d’un montage vidéo que j’ai entièrement réalisé autour de Blam'S, un artiste dont j’apprécie particulièrement la musique. 🎬 <br><br> Comment m’est venue l’idée ? 💡 <br><br> Écoutant régulièrement ses morceaux, j’ai eu envie de réaliser un montage autour de son univers musical, en associant des extraits vidéo, des paroles et différents effets visuels. <br><br> Mon approche créative 🎨 <br><br> Pour ce projet, j’ai travaillé sur les transitions, les animations du texte et la synchronisation des éléments visuels avec la musique, afin de créer un montage dynamique et agréable à regarder. <br><br> Ce projet m’a permis de laisser libre cours à ma créativité tout en associant mon intérêt pour la musique à ma passion pour le montage vidéo.";
         etat = 4
     }
@@ -69,7 +69,7 @@ function defiler_gauche() {
     }
     else if (etat === 5) {
         icône.src = "Couverture.webp"
-        lien.href = "./Montage Mon Idole Blam'S.mp4"
+        lien.href = "./Montage Mon Idole BlamS.mp4"
         descipt.innerHTML = "<h1>Mon Idole - BlamS </h1> <br> Il s’agit d’un montage vidéo que j’ai entièrement réalisé autour de Blam'S, un artiste dont j’apprécie particulièrement la musique. 🎬 <br><br> Comment m’est venue l’idée ? 💡 <br><br> Écoutant régulièrement ses morceaux, j’ai eu envie de réaliser un montage autour de son univers musical, en associant des extraits vidéo, des paroles et différents effets visuels. <br><br> Mon approche créative 🎨 <br><br> Pour ce projet, j’ai travaillé sur les transitions, les animations du texte et la synchronisation des éléments visuels avec la musique, afin de créer un montage dynamique et agréable à regarder. <br><br> Ce projet m’a permis de laisser libre cours à ma créativité tout en associant mon intérêt pour la musique à ma passion pour le montage vidéo.";
         etat = 4;
     }
