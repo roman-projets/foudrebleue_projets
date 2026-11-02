@@ -52,7 +52,7 @@ function defiler_droite() {
         icône.src = "Sora & Kurohachi.png"
         lien.href = "https://roman-projets.github.io/foudrebleue_univers_sora_kurohachi/"
         descipt.innerHTML = "<h1>Univers de Sora & Kurohachi</h1> <br> <br> 🌙 L'Univers de Sora & Kurohachi est un projet créatif que je développe et fais évoluer au fil du temps, mêlant narration, création visuelle et développement web. À travers les aventures de Sora, Kurohachi, Axiom et de nombreux autres personnages, cet univers explore des thèmes tels que l’attachement 🤝, la confiance 💙, la vérité 🕊️, la liberté 🪽 et le courage ⚔️ face à ses propres faiblesses. <br> <br> ✨ Les illustrations présentes dans cet univers sont générées à l’aide de l’intelligence artificielle. Elles ne sont pas de simples images, mais participent à donner vie aux personnages, aux lieux et aux histoires qui composent ce monde en constante évolution. Chaque personnage possède son identité, ses convictions, ses forces et ses faiblesses, contribuant à enrichir un récit où les relations et les événements façonnent progressivement l’avenir de cet univers. <br> <br> 🌌 Entre récits, illustrations, nouvelles idées et expérimentations, chaque ajout représente une nouvelle pierre à l’édifice. L’Univers de Sora & Kurohachi continue ainsi de grandir et d’évoluer, porté par l’imagination, les émotions 🌠, les mystères ✨ et les nombreuses histoires qui restent encore à raconter. 🐾🌙.";
-        etat = 5
+        etat = 6
     }
     else {
         icône.src = "Listes de mes mangas.avif"
