@@ -26,7 +26,7 @@ function defiler_droite() {
     }
     else if (etat === 1) {
         icône.src = "scene_harcelement.png"
-        lien.href = "Montage-Milésime K-Harcèlement.mp4"
+        lien.href = "./Montage-Milésime K-Harcèlement.mp4"
         descipt.innerHTML = "<h1>Lutte contre le Harcèlement</h1> <h2>Harcèlement - Milésime-K</h2> <br>Il s’agit d’un montage vidéo que j’ai entièrement réalisé 📼. <br> <br> Comment m’est venue l’idée ? 💡 <br> J’écoute énormément de musique et 🎧, lorsque l’inspiration vient, je me lance dans le montage en me laissant guider uniquement par le son et les émotions qu’elle transmet.J’y ajoute ensuite les images, les vidéos, les textes et les effets afin de donner vie à ce que je ressens. <br> <br> La chanson utilisée est ''Harcèlement'' de Milésime K, sortie en 2023. Ce morceau engagé aborde le thème du harcèlement sous plusieurs formes, notamment scolaire et en ligne, à travers un ton introspectif et percutant.Il s’inscrit dans la démarche de l’artiste d’utiliser le rap comme vecteur de sensibilisation sociale. <br> <br> La production se distingue par une instrumentation sobre, dominée par des nappes de piano et des percussions feutrées, afin de mettre en avant le texte et le message.La chanson décrit les mécanismes du harcèlement et ses conséquences psychologiques, tout en appelant à une prise de conscience collective.Milésime K.alterne des passages narratifs et des phases plus percutantes, donnant une voix à ceux qui se sentent réduits au silence. <br> <br>Ce qui m’a particulièrement marqué avec cette musique, c’est justement le choix du rap pour traiter un sujet aussi lourd et triste.Je trouve cette approche assez originale et peu commune, car ce style musical est souvent associé à des thèmes très différents.Ici, le contraste entre l’énergie du rap et la gravité du sujet rend le message encore plus fort et marquant. <br> <br> À travers ce montage, j’ai voulu retranscrire ces émotions de la manière la plus sincère et immersive possible, en laissant la musique guider le rythme, les images et l’atmosphère générale de la vidéo.";
         etat = 2;
     }
@@ -38,7 +38,7 @@ function defiler_droite() {
     }
     else if (etat === 3) {
         icône.src = "Couverture.webp"
-        lien.href = "Montage Mon Idole Blam'S.mp4"
+        lien.href = "./Montage Mon Idole Blam'S.mp4"
         descipt.innerHTML = "<h1>Mon Idole - Blam'S </h1> <br> Il s’agit d’un montage vidéo que j’ai entièrement réalisé autour de Blam'S, un artiste dont j’apprécie particulièrement la musique. 🎬 <br><br> Comment m’est venue l’idée ? 💡 <br><br> Écoutant régulièrement ses morceaux, j’ai eu envie de réaliser un montage autour de son univers musical, en associant des extraits vidéo, des paroles et différents effets visuels. <br><br> Mon approche créative 🎨 <br><br> Pour ce projet, j’ai travaillé sur les transitions, les animations du texte et la synchronisation des éléments visuels avec la musique, afin de créer un montage dynamique et agréable à regarder. <br><br> Ce projet m’a permis de laisser libre cours à ma créativité tout en associant mon intérêt pour la musique à ma passion pour le montage vidéo.";
         etat = 4
     }
@@ -69,7 +69,7 @@ function defiler_gauche() {
     }
     else if (etat === 5) {
         icône.src = "Couverture.webp"
-        lien.href = "Montage Mon Idole Blam'S.mp4"
+        lien.href = "./Montage Mon Idole Blam'S.mp4"
         descipt.innerHTML = "<h1>Mon Idole - Blam'S </h1> <br> Il s’agit d’un montage vidéo que j’ai entièrement réalisé autour de Blam'S, un artiste dont j’apprécie particulièrement la musique. 🎬 <br><br> Comment m’est venue l’idée ? 💡 <br><br> Écoutant régulièrement ses morceaux, j’ai eu envie de réaliser un montage autour de son univers musical, en associant des extraits vidéo, des paroles et différents effets visuels. <br><br> Mon approche créative 🎨 <br><br> Pour ce projet, j’ai travaillé sur les transitions, les animations du texte et la synchronisation des éléments visuels avec la musique, afin de créer un montage dynamique et agréable à regarder. <br><br> Ce projet m’a permis de laisser libre cours à ma créativité tout en associant mon intérêt pour la musique à ma passion pour le montage vidéo.";
         etat = 4;
     }
@@ -81,7 +81,7 @@ function defiler_gauche() {
     }
     else if (etat === 3) {
         icône.src = "scene_harcelement.png"
-        lien.href = "Montage-Milésime K-Harcèlement.mp4"
+        lien.href = "./Montage-Milésime K-Harcèlement.mp4"
         descipt.innerHTML = "<h1>Lutte contre le Harcèlement</h1> <h2>Harcèlement - Milésime-K</h2> <br>Il s’agit d’un montage vidéo que j’ai entièrement réalisé 📼. <br> <br> Comment m’est venue l’idée ? 💡 <br> J’écoute énormément de musique et 🎧, lorsque l’inspiration vient, je me lance dans le montage en me laissant guider uniquement par le son et les émotions qu’elle transmet.J’y ajoute ensuite les images, les vidéos, les textes et les effets afin de donner vie à ce que je ressens. <br> <br> La chanson utilisée est ''Harcèlement'' de Milésime K, sortie en 2023. Ce morceau engagé aborde le thème du harcèlement sous plusieurs formes, notamment scolaire et en ligne, à travers un ton introspectif et percutant.Il s’inscrit dans la démarche de l’artiste d’utiliser le rap comme vecteur de sensibilisation sociale. <br> <br> La production se distingue par une instrumentation sobre, dominée par des nappes de piano et des percussions feutrées, afin de mettre en avant le texte et le message.La chanson décrit les mécanismes du harcèlement et ses conséquences psychologiques, tout en appelant à une prise de conscience collective.Milésime K.alterne des passages narratifs et des phases plus percutantes, donnant une voix à ceux qui se sentent réduits au silence. <br> <br>Ce qui m’a particulièrement marqué avec cette musique, c’est justement le choix du rap pour traiter un sujet aussi lourd et triste.Je trouve cette approche assez originale et peu commune, car ce style musical est souvent associé à des thèmes très différents.Ici, le contraste entre l’énergie du rap et la gravité du sujet rend le message encore plus fort et marquant. <br> <br> À travers ce montage, j’ai voulu retranscrire ces émotions de la manière la plus sincère et immersive possible, en laissant la musique guider le rythme, les images et l’atmosphère générale de la vidéo.";
         etat = 2;
     }
