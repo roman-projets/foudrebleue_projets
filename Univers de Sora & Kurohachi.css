@@ -1,0 +1,129 @@
+body {
+    background-color: black;
+}
+
+#liens_projets {
+    color: red;
+    text-decoration: none;
+    font-size: 50px;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    top: 20px;
+    right: 20px;
+}
+
+#titre {
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-style: italic;
+    cursor: pointer;
+    width: max-content;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+}
+
+#contenu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    margin-left: 2%;
+}
+
+.persos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin-bottom: 1%;
+    margin-left: 10px;
+    padding: 0;
+    transition: transform 0.3s ease;
+}
+
+.persos img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.persos p {
+    color: azure;
+    font-size: 20px;
+    margin-top: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.persos:hover {
+    transform: scale(1.1);
+}
+
+.deucième_bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin-left: 10px;
+    padding: 0;
+    transition: transform 0.3s ease;
+}
+
+.story img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.story p {
+    color: azure;
+    font-size: 20px;
+    margin-top: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.story:hover {
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 768px) {
+    #contenu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        /* align-items: center; */
+    }
+
+    .persos img {
+        width: 480%;
+        height: auto;
+    }
+
+    .persos p {
+        margin-left: 385%;
+    }
+
+    .deucième_bloc {
+        width: 480%;
+        height: auto;
+    }
+
+    #titre {
+        font-size: 50px
+    }
+}
