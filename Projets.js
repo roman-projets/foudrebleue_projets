@@ -128,3 +128,19 @@ dialog.addEventListener("click", (event) => {
         dialog.close();
     }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const annee = document.querySelector("#annee");
+
+    if (annee) {
+        const date = new Date();
+
+        const dateComplete = date.toLocaleDateString("fr-FR", {
+            day: "numeric",
+            month: "long",
+            year: "numeric"
+        });
+
+        annee.textContent = dateComplete;
+    }
+});
