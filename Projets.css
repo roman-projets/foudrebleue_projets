@@ -65,6 +65,19 @@ body {
     transform: scale(1.2);
 }
 
+#video_moi {
+    text-decoration-line: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    color: gold;
+}
+
+#video_moi:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
 #croix {
     position: absolute;
     top: 20px;
