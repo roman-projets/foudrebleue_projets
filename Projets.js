@@ -68,7 +68,7 @@ function defiler_droite() {
     }
     else {
         icône.src = "Listes de mes mangas.avif"
-        lien.href = "https://roman-projets.github.io/foudrebleue_manga/"
+        lien.href = "https://roman-projets.github.io/foudrebleue-manga-accueil/"
         descipt.innerHTML = `<h1>Liste de mes mangas</h1><br> Bienvenue dans ma collection de mangas 😉📚 <br><br>  Ce projet développé en HTML regroupe tous les mangas que je possède actuellement. <br> Fan de Shônen, Shôjo, Seinen et bien d’autres univers ✨, <br>je lis un peu de tout selon mon humeur,<br> avec une petite préférence pour certains BL 👀.<br><br> Pour faciliter la navigation dans la collection, le site propose un moteur de recherche permettant de retrouver rapidement une série grâce à son titre. Tu peux également utiliser de nombreux systèmes de tri et de filtres afin d'afficher uniquement les mangas qui t'intéressent : <ul> <li>📖 Mangas lus, en cours de lecture ou à lire;</li> <li>🏷️ Tri par type(Shônen, Seinen, Shôjo, BL, Manhwa, etc.);</li> <li>🔠 Recherche et filtres complémentaires pour parcourir facilement toute la collection.</li> </ul> <br> Le site affiche également un compteur dynamique qui s'adapte automatiquement aux mangas visibles après chaque recherche ou filtre appliqué. Tu peux ainsi connaître en un coup d'œil le nombre de séries affichées ainsi que l'état de ta sélection. <br> <br>Tous les mangas que je possède sont répertoriés ici. Les séries affichées en gris correspondent aux mangas actuellement prêtés à des camarades. 🩶 <br> <br> Enfin, parce qu'une collection évolue constamment, une section est également dédiée aux mangas proposés à la vente, afin de suivre les séries dont je souhaite me séparer. 💸📚";`
         etat = 0
     }
@@ -129,7 +129,7 @@ function defiler_gauche() {
     }
     else if (etat === 1) {
         icône.src = "Listes de mes mangas.avif"
-        lien.href = "https://roman-projets.github.io/foudrebleue_manga/"
+        lien.href = "https://roman-projets.github.io/foudrebleue-manga-accueil/"
         descipt.innerHTML = `<h1>Liste de mes mangas</h1><br> Bienvenue dans ma collection de mangas 😉📚 <br><br>  Ce projet développé en HTML regroupe tous les mangas que je possède actuellement. <br> Fan de Shônen, Shôjo, Seinen et bien d’autres univers ✨, <br>je lis un peu de tout selon mon humeur,<br> avec une petite préférence pour certains BL 👀.<br><br> Pour faciliter la navigation dans la collection, le site propose un moteur de recherche permettant de retrouver rapidement une série grâce à son titre. Tu peux également utiliser de nombreux systèmes de tri et de filtres afin d'afficher uniquement les mangas qui t'intéressent : <ul> <li>📖 Mangas lus, en cours de lecture ou à lire;</li> <li>🏷️ Tri par type(Shônen, Seinen, Shôjo, BL, Manhwa, etc.);</li> <li>🔠 Recherche et filtres complémentaires pour parcourir facilement toute la collection.</li> </ul> <br> Le site affiche également un compteur dynamique qui s'adapte automatiquement aux mangas visibles après chaque recherche ou filtre appliqué. Tu peux ainsi connaître en un coup d'œil le nombre de séries affichées ainsi que l'état de ta sélection. <br> <br>Tous les mangas que je possède sont répertoriés ici. Les séries affichées en gris correspondent aux mangas actuellement prêtés à des camarades. 🩶 <br> <br> Enfin, parce qu'une collection évolue constamment, une section est également dédiée aux mangas proposés à la vente, afin de suivre les séries dont je souhaite me séparer. 💸📚";`
         etat = 0
     }
