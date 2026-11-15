@@ -160,11 +160,12 @@ document.addEventListener("DOMContentLoaded", () => {
         const date = new Date();
 
         const dateComplete = date.toLocaleDateString("fr-FR", {
+            weekday: "long",
             day: "numeric",
             month: "long",
             year: "numeric"
         });
 
-        annee.textContent = dateComplete;
+        annee.textContent = dateComplete.replace(/\b\p{L}/gu, lettre => lettre.toUpperCase());
     }
 });
