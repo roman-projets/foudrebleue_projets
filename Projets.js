@@ -66,6 +66,12 @@ function defiler_droite() {
         descipt.innerHTML = "<h1>Allo - Blam'S</h1> <br> <br> Dans la continuité de mon premier montage consacré à Ken Kaneki, cette seconde réalisation prolonge mon exploration de l'univers de Tokyo Ghoul et de la psychologie de son personnage principal. <br> <br>Après avoir été marqué par les souffrances et la transformation de Kaneki, j'ai voulu aller plus loin en mettant en avant sa personnalité tourmentée, son rapport aux autres et les contradictions qui l'habitent. Entre douleur, solitude, colère et perte de repères, ce montage cherche à retranscrire une facette plus sombre et introspective du personnage. <br> <br> À travers un travail de montage associant illustrations, effets visuels, musique et citations, j'ai cherché à donner davantage de profondeur à cette représentation de Kaneki, notamment autour de son masque, symbole de ce qu'il laisse paraître et de ce qu'il dissimule. <br> <br> Ce deuxième projet marque une nouvelle étape dans mon apprentissage du montage vidéo, avec l'envie de développer davantage mon style visuel et ma manière de transmettre des émotions à travers l'image et le son.";
         etat = 8
     }
+    else if (etat === 8) {
+        icône.src = "Chef gang.jpeg"
+        lien.href = "Vidéo gang.mp4"
+        descipt.innerHTML = "";
+        etat = 9
+    }
     else {
         icône.src = "Listes de mes mangas.avif"
         lien.href = "https://roman-projets.github.io/foudrebleue-manga-accueil/"
@@ -80,6 +86,12 @@ function defiler_gauche() {
     const lien = document.querySelector("#lien")
     const descipt = document.querySelector("#texte");
     if (etat === 0) {
+        icône.src = "Chef gang.jpeg"
+        lien.href = "Vidéo gang.mp4"
+        descipt.innerHTML = "";
+        etat = 9
+    }
+    else if (etat === 9) {
         icône.src = "ken-kaneki.avif"
         lien.href = "Ken Kaneki Allo BlamS.mp4"
         descipt.innerHTML = "<h1>Allo - Blam'S</h1> <br> <br> Dans la continuité de mon premier montage consacré à Ken Kaneki, cette seconde réalisation prolonge mon exploration de l'univers de Tokyo Ghoul et de la psychologie de son personnage principal. <br> <br>Après avoir été marqué par les souffrances et la transformation de Kaneki, j'ai voulu aller plus loin en mettant en avant sa personnalité tourmentée, son rapport aux autres et les contradictions qui l'habitent. Entre douleur, solitude, colère et perte de repères, ce montage cherche à retranscrire une facette plus sombre et introspective du personnage. <br> <br> À travers un travail de montage associant illustrations, effets visuels, musique et citations, j'ai cherché à donner davantage de profondeur à cette représentation de Kaneki, notamment autour de son masque, symbole de ce qu'il laisse paraître et de ce qu'il dissimule. <br> <br> Ce deuxième projet marque une nouvelle étape dans mon apprentissage du montage vidéo, avec l'envie de développer davantage mon style visuel et ma manière de transmettre des émotions à travers l'image et le son.";
